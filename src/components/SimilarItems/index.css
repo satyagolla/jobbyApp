@@ -1,0 +1,64 @@
+.similar-item-card {
+  background-color: #272727;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+.similar-item-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.similar-item-logo {
+  width: 75px;
+  height: 75px;
+}
+.similar-item-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.similar-item-star-card {
+  display: flex;
+  align-items: center;
+  height: 15px;
+}
+.similar-item-title-card {
+  margin-left: 15px;
+  padding-bottom: 20px;
+}
+.similar-item-rating {
+  color: #ffffff;
+  font-size: 22px;
+  margin-left: 10px;
+}
+.star {
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.similar-item-description-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22px;
+}
+.similar-item-description {
+  color: #cbd5e1;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.similar-item-location-card {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.similar-item-location-container {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .similar-item-card {
+    margin: 20px;
+  }
+}

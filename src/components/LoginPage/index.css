@@ -1,0 +1,80 @@
+.app-container {
+  background-color: #000000;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.input-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.login-container {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 3px;
+}
+.website-logo-image {
+  width: 100px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo-image {
+    width: 150px;
+  }
+  .submit-button {
+    height: 30px;
+    margin-top: 13px;
+  }
+}
+.input-element {
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  font-size: 12px;
+  padding: 4px;
+  padding-left: 8px;
+  outline: none;
+  color: aliceblue;
+}
+@media screen and (min-width: 768px) {
+  .input-element {
+    width: 250px;
+    height: 30px;
+  }
+}
+.label-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.submit-button {
+  background-color: #4f46e5;
+  width: 100%;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 3px;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  margin-bottom: 0px;
+}
+.error-message {
+  color: red;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
